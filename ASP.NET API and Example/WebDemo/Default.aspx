@@ -1,0 +1,92 @@
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebDemo._Default" %>
+
+<%@ Register Assembly="DevExpress.Web.v17.1, Version=17.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <div>
+        <dx:ASPxPanel ID="pnlTop" runat="server" Width="100%" Height="50px" FixedPosition="WindowTop">
+            <PanelCollection>
+                <dx:PanelContent>
+                    <div style="float:left;">
+                    <h1>Popular Water Filters</h1>
+                    </div>
+                    <div style="float:right;margin-top:5px;">
+                    <dx:ASPxMenu ID="ASPxMenu1" runat="server">
+                        <Items>
+                            <dx:MenuItem Text="Products"></dx:MenuItem>
+                            <dx:MenuItem Text="Groups"></dx:MenuItem>
+                            <dx:MenuItem Text="Help"></dx:MenuItem>
+                        </Items>
+                    </dx:ASPxMenu>
+                    </div>
+                </dx:PanelContent>
+            </PanelCollection>
+        </dx:ASPxPanel>
+    </div>
+    <div>
+        <dx:ASPxGridView ID="gvProducts" runat="server" AutoGenerateColumns="False" DataSourceID="wProducts" KeyFieldName="Id">
+            <Settings ShowGroupPanel="True" ShowFilterRow="True"></Settings>
+
+            <Columns>
+                <dx:GridViewCommandColumn ShowEditButton="True" VisibleIndex="0" ShowNewButtonInHeader="True" ShowDeleteButton="True"></dx:GridViewCommandColumn>
+                <dx:GridViewDataTextColumn FieldName="Id" VisibleIndex="1" Visible="false">
+                    <EditFormSettings Visible="False"></EditFormSettings>
+                </dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn FieldName="ProductDesc" VisibleIndex="2"></dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn FieldName="Cost" VisibleIndex="3">
+                    <PropertiesTextEdit DisplayFormatString="#,##0.00"></PropertiesTextEdit>
+                </dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn FieldName="RRP" VisibleIndex="4">
+                    <PropertiesTextEdit DisplayFormatString="#,##0.00"></PropertiesTextEdit>
+                </dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn FieldName="ProductPicture" VisibleIndex="5" Visible="False"></dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn FieldName="ProductNotes" VisibleIndex="6"></dx:GridViewDataTextColumn>
+                <dx:GridViewDataCheckColumn FieldName="Inactive" VisibleIndex="7"></dx:GridViewDataCheckColumn>
+                <dx:GridViewDataTextColumn FieldName="ProductId" VisibleIndex="9" Visible="False">
+                    <EditFormSettings Visible="False"></EditFormSettings>
+                </dx:GridViewDataTextColumn>
+                <dx:GridViewDataComboBoxColumn FieldName="ProdGroup" VisibleIndex="8">
+                    <PropertiesComboBox DataSourceID="wGroups" TextField="ProductGroup" ValueField="Id"></PropertiesComboBox>
+                </dx:GridViewDataComboBoxColumn>
+
+            </Columns>
+        </dx:ASPxGridView>
+        <asp:ObjectDataSource runat="server" ID="wProducts" DataObjectTypeName="WebDataLayer.Models.Products+Product" DeleteMethod="Delete" InsertMethod="Add" SelectMethod="Get" TypeName="WebDataLayer.Models.Products" UpdateMethod="Update">
+            <DeleteParameters>
+                <asp:Parameter Name="Id" Type="Int32"></asp:Parameter>
+            </DeleteParameters>
+        </asp:ObjectDataSource>
+        <asp:ObjectDataSource runat="server" ID="wGroups" SelectMethod="Get" TypeName="WebDataLayer.Models.ProductGroups" />
+        <asp:SqlDataSource runat="server" ID="dsProducts" ConnectionString='<%$ ConnectionStrings:PWSConnectionString %>' SelectCommand="SELECT * FROM [Products]" DeleteCommand="DELETE FROM [Products] WHERE [Id] = @Id" InsertCommand="INSERT INTO [Products] ([ProductDesc], [Cost], [RRP], [ProductPicture], [ProductNotes], [Inactive], [ProdGroup], [ProductId]) VALUES (@ProductDesc, @Cost, @RRP, @ProductPicture, @ProductNotes, @Inactive, @ProdGroup, @ProductId)" UpdateCommand="UPDATE [Products] SET [ProductDesc] = @ProductDesc, [Cost] = @Cost, [RRP] = @RRP, [ProductPicture] = @ProductPicture, [ProductNotes] = @ProductNotes, [Inactive] = @Inactive, [ProdGroup] = @ProdGroup, [ProductId] = @ProductId WHERE [Id] = @Id">
+            <DeleteParameters>
+                <asp:Parameter Name="Id" Type="Int32"></asp:Parameter>
+            </DeleteParameters>
+            <InsertParameters>
+                <asp:Parameter Name="ProductDesc" Type="String"></asp:Parameter>
+                <asp:Parameter Name="Cost" Type="Double"></asp:Parameter>
+                <asp:Parameter Name="RRP" Type="Double"></asp:Parameter>
+                <asp:Parameter Name="ProductPicture" Type="String"></asp:Parameter>
+                <asp:Parameter Name="ProductNotes" Type="String"></asp:Parameter>
+                <asp:Parameter Name="Inactive" Type="Boolean"></asp:Parameter>
+                <asp:Parameter Name="ProdGroup" Type="Int32"></asp:Parameter>
+                <asp:Parameter Name="ProductId" Type="Object"></asp:Parameter>
+            </InsertParameters>
+            <UpdateParameters>
+                <asp:Parameter Name="ProductDesc" Type="String"></asp:Parameter>
+                <asp:Parameter Name="Cost" Type="Double"></asp:Parameter>
+                <asp:Parameter Name="RRP" Type="Double"></asp:Parameter>
+                <asp:Parameter Name="ProductPicture" Type="String"></asp:Parameter>
+                <asp:Parameter Name="ProductNotes" Type="String"></asp:Parameter>
+                <asp:Parameter Name="Inactive" Type="Boolean"></asp:Parameter>
+                <asp:Parameter Name="ProdGroup" Type="Int32"></asp:Parameter>
+                <asp:Parameter Name="ProductId" Type="Object"></asp:Parameter>
+                <asp:Parameter Name="Id" Type="Int32"></asp:Parameter>
+            </UpdateParameters>
+        </asp:SqlDataSource>
+        <asp:SqlDataSource ID="dsGroups" runat="server" ConnectionString='<%$ ConnectionStrings:PWSConnectionString %>' SelectCommand="SELECT [ID], [ProductGroup] FROM [ProductGroups] ORDER BY [ProductGroup]"></asp:SqlDataSource>
+    </div>
+    <div>
+        <dx:ASPxPanel ID="pnlLower" runat="server" Width="100%" Height="50px" FixedPosition="WindowBottom"></dx:ASPxPanel>
+    </div>
+</asp:Content>
