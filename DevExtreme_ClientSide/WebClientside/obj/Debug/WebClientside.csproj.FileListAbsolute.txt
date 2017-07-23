@@ -1,0 +1,60 @@
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\csc.exe
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\vbc.exe
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\VBCSCompiler.exe
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\bin\WebClientside.dll.config
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\bin\WebClientside.dll
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\bin\WebClientside.pdb
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\obj\Debug\WebClientside.csprojResolveAssemblyReference.cache
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\obj\Debug\WebClientside.dll
+C:\Users\paulusher\Dropbox (Business)\__Unfuddle\WebClientside\obj\Debug\WebClientside.pdb
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\csc.exe
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\vbc.exe
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\VBCSCompiler.exe
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\bin\WebClientside.dll.config
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\bin\WebClientside.dll
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\bin\WebClientside.pdb
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\obj\Debug\WebClientside.csprojResolveAssemblyReference.cache
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\obj\Debug\WebClientside.dll
+C:\Users\paul\Dropbox (Business)\__Unfuddle\WebClientside\obj\Debug\WebClientside.pdb
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\bin\roslyn\csc.exe
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\bin\roslyn\vbc.exe
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\bin\roslyn\VBCSCompiler.exe
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\bin\WebClientside.dll.config
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\bin\WebClientside.dll
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\bin\WebClientside.pdb
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\obj\Debug\WebClientside.csprojResolveAssemblyReference.cache
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\obj\Debug\WebClientside.dll
+C:\Users\leecu\Documents\Visual Studio 2017\Projects\DevExtreme_ClientSide\WebClientside\obj\Debug\WebClientside.pdb
